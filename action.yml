@@ -1,0 +1,10 @@
+name: "Hello World Action"
+description: "A very simple GitHub Action that prints Hello World"
+author: "Aiden Vaines"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Print Hello World
+      shell: bash
+      run: echo "Hello World"
